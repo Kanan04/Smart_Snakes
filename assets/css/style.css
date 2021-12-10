@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    position: relative;
+    background-image: url('../../images/background.jpg');
+    color: white;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(155, 155, 255);
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: rgb(34, 143, 34);
+}
+
+.logo img{
+    position: absolute;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 100px;
+}
+
+#team-name{
+    position: absolute;
+    float: left;
+    margin-left: 20px;
+    top:-20px;
+    color: rgb(255, 255, 255);
+    font-family: Brush Script MT;
+}
+
+#page{
+    display: flex;
+    position: relative;
+    background-color: rgb(41, 83, 57);
+    width: 100%;
+    height: 160px;
+}
+
+#page-name{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    top: 20px;
+    font-size: 45px;
+}
+
+.tags{
+    position: absolute;
+    float: right;
+    right: 0;
+    margin-right: 20px;
+    font-size: 25px;
+    display: flex;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#team-members {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+#member-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 22px;
+}
+
+#member-name div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#member-name div img{
+    position: relative;
+    height: 250px;
+    left: 10px;
+}
+
+.content{
+    margin: 0px 20px 0px 20px;
+}
+
+.what-we-learned {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.what-we-learned ul li::marker{
+    color: rgb(0, 172, 0);
+}
+
+.code img{
+    max-width: 100%;  
+    height: auto;  
+}
+
+.steps{
+    display: flex;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.process{
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.process ol li::marker{
+    color: rgb(0, 172, 0);
+}
+
+#team-photo img{
+    float: left;
+    width: 31%;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+
+#hourofcode img{
+    display: flex;
+    position: relative;
+    width: 80%;
+    padding: 10%;
+}
+
+.feedback{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+header form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header  form > input{
+    margin-bottom: 20px;
+    padding:10px 20px 10px 3px;
+}
+
+header  form > textarea{
+    width: 418px;
+    height: 152px;
+    font-size: 28px;
+}
+
+#submit{
+    width: 423px;
+    margin-top: 10px;
+    background-color: rgb(24 189 90);
+    border: 1px dashed black;
+    color: white;
+
+}
+
+header form input{
+    width: 400px;
+    font-size: 28px;
+}
